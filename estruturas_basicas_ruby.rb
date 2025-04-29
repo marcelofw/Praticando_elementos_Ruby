@@ -64,3 +64,10 @@
 # puts Math.sqrt(36)
 # puts Math.log(1)
 
+# puts "Enter Your Name: "
+# # name = gets
+# # puts ("Hello " + name + ", welcome!")      #prints welcome in a new line
+
+# name = gets.chomp()                      
+# puts ("Hello " + name + ", welcome!")       #prints welcome in the same line
+
