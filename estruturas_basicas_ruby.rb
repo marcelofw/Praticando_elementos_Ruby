@@ -71,3 +71,51 @@
 # name = gets.chomp()                      
 # puts ("Hello " + name + ", welcome!")       #prints welcome in the same line
 
+# puts "Enter a color: "
+# color = gets.chomp()
+# puts ("I choose the color " + color)
+
+# cities = Array["Liberty bay", "Carlin", "Thais"]
+# puts cities
+# puts cities[0]      
+# puts cities[0, 2]
+# cities[0] = "Venore"
+# puts cities
+# puts cities.length()
+# puts cities.include? "Carlin"
+# puts cities.reverse()
+# puts cities.sort()
+
+# movies = Array.new
+# movies[0] = "Harry Potter"
+# puts movies
+# movies[3] = "Matrix"        #fills the 3rd index number and leave the others empty
+# puts movies
+
+# array_test = Array["strings", false, true, 1, 1.5]      #arrays accept any type of data
+# puts array_test
+# puts array_test.sort()      #throws an error because it can't compare strings with numbers and booleans
+
+# states = {
+#     "Rio Grande do Sul" => "RS",
+#     "São Paulo" => "SP",
+#     "Paraná" => "PR"
+# }
+# puts states
+# puts states["São Paulo"]
+
+# def sayhi(name)
+#     puts ("Hi " + name)
+# end
+# sayhi("Marcelo")
+
+# def sayhi(name = "Marcelo")     #specifying a default value
+#     puts("Hi " + name)
+# end
+# sayhi()         #() are optional
+
+def cube(num)
+    return num * num * num
+    5                           #with the return statement, even though there is a 5 below, it won't be executed after the return
+end
+puts cube(3)
