@@ -119,3 +119,11 @@ def cube(num)
     5                           #with the return statement, even though there is a 5 below, it won't be executed after the return
 end
 puts cube(3)
+
+
+
+=begin
+Everything between begin and end will be comments
+
+
+=end
