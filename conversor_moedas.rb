@@ -1,4 +1,3 @@
-
 def show_options
     puts "\nCurrency converter"        
     puts "1. BRL to USD"
